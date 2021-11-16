@@ -16,3 +16,14 @@ function no() {
     btnN.style.left = Math.random() * (w * 2) - w + 'px'
     btnN.style.top = Math.random() * (h * 2) - h + 'px'
   }
+
+function dno() {
+    text = document.getElementById('text')
+    text.innerHTML = 'Красава'
+
+    btnY = document.getElementById('yes')
+    btnN = document.getElementById('no') 
+
+    btnY.style.display = "none"
+    btnN.style.display = "none"
+} 
